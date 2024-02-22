@@ -1,1 +1,0 @@
-#sololearnshi gvakvs davaleba
