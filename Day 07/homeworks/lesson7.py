@@ -6,10 +6,10 @@
     #print(num)
     #num += 1
 
-#count = 0
-#while count <= 5:
-    #print(count)
-    #count += 1
+#sum = 0
+#for i in range(6):
+    #sum = sum + i
+#print(sum)
 
 #my_string = "Hello"
 #for char in my_string:
