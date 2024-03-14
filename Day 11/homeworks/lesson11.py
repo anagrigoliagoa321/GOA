@@ -1,62 +1,53 @@
+#შექმენით სია სადაც გადასცემთ 10 ინტეჯერს
+#შემდეგ თითოეული გაამრავლეთ, გაყავით, დაუმატეთ/გამოაკელით
 
-# Create a list of 10 integers
-numbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+# mylist = [1,2,3,4,5,6,7,8,9,10]
+# print(mylist[1] * 3)
+# print(mylist[2] / 4)
+# print(mylist[3] + 6)
+# print(mylist[4] - 5)
 
-# Iterate through the list and perform operations
-for num in numbers:
-    # Multiply
-    result_multiply = num * 2
-    print(f"Multiplying {num} by 2 equals {result_multiply}")
-    
-    # Divide
-    result_divide = num / 2
-    print(f"Dividing {num} by 2 equals {result_divide}")
-    
-    # Add
-    result_add = num + 5
-    print(f"Adding 5 to {num} equals {result_add}")
-    
-    # Subtract
-    result_subtract = num - 5
-    print(f"Subtracting 5 from {num} equals {result_subtract}")
+#შექმენით სია სადაც გამოიტანთ სათითაოდ მნიშვნელობებს და ასევე ჩაანაცვლებთ სხვა მნიშვნელობები
 
-# Create a list
-values = [1, 2, 3, 4, 5]
+# myproducts = ["orange", "apple", "milk"]
+# myproducts[0] = "bluebarry"
+# myproducts[1] = "water"
+# myproducts[2] = "juice"
+# print(myproducts)
 
-# Extract and replace values
-for index in range(len(values)):
-    # Extracting value
-    extracted_value = values.pop(0)
-    print(f"Extracted value: {extracted_value}")
+#შექმენით სია და მომხმარებელს აარჩევინეთ სასურველი მნიშვნელობა
 
-    # Replacing with another value
-    values.append(extracted_value * 2)
-    print("List after replacement:", values)
+# clothes = ["T-shirt","jeans","jacket"]
+# numbers = int(input("enter your numer: "))
+# print(clothes[numbers])
 
-# Create a list
-my_list = [10, 20, 30, 40, 50]
-
-# Let the user choose a desired value
-desired_value = int(input("Enter the desired value: "))
-
-# Check if the desired value is in the list
-if desired_value in my_list:
-    print(f"{desired_value} is in the list.")
-else:
-    print(f"{desired_value} is not in the list.")
-
-("Sentences with Provided Words:")
-("The value of this item minus the value of that item is ten")
-("The list contains a variety of fruits")
-("Please enclose this expression in parentheses")
-("Separate the elements with commas")
-("Does the library include references to those articles")
-("Access to the database requires permissio")
-("The two solutions are different from each other")
-("The output of the program is displayed on the screen")
-("Lists are mutable, meaning they can be changed")
-("Once assigned, the value of a constant is immutable")
-("Would you like a lime or a lemon in your drink")
-("The monitor will display the image in high definition")
-("DNA and RNA are both types of sequences")
-("Can you define the purpose of this function")
+#value
+print("this code does not have a value")
+#list
+print("I've done every single thing from this list")
+#parentheses
+print("The programmer wrapped the function arguments in parentheses to ensure proper execution")
+#comma
+print("The programmer wrapped the function arguments in parentheses to ensure proper execution")
+#includes
+print("This textbook includes a comprehensive index for easy reference")
+#acces
+print("The librarian suggested a few books that might acces different aspects of the topic")
+#premission
+print("Before editing the document, please ensure you have the necessary premission")
+#different
+print("The two paintings may appear similar at first glance, but they have different color schemes")
+#output
+print("The computer program displayed an error message as the output of the faulty code")
+#mutaple
+print("Arrays in many programming languages are mutable, allowing for changes to their elements")
+#immutaple
+print("Once set, the value of a constant in programming is immutable and cannot be changed")
+#lemon
+print("She preferred the tartness of a lemon over the sweetness of a lime")
+#display
+print("The art gallery chose a minimalist design to display the sculptures effectively")
+#sequences
+print("Genetic sequences hold valuable information about an organism's traits")
+#define
+print("Can you define the key terms used in this scientific paper?")
